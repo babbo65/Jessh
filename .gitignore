@@ -1,7 +1,7 @@
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/connect/**/build/
+!**/src/model.connect/**/build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
@@ -13,7 +13,7 @@ build/
 *.iml
 *.ipr
 out/
-!**/src/connect/**/out/
+!**/src/model.connect/**/out/
 !**/src/test/**/out/
 
 ### Eclipse ###
@@ -25,7 +25,7 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/connect/**/bin/
+!**/src/model.connect/**/bin/
 !**/src/test/**/bin/
 
 ### NetBeans ###

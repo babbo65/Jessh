@@ -1,12 +1,15 @@
+package model;
+
 import com.jcraft.jsch.*;
 
 public class connect {
-    public static void main(String[] args) {
+
+    public void connect(Connection connection) {
         JSch jsch = new JSch();
         try {
             // Args are username, pw, ip
-            Session session = jsch.getSession(args[0], args[2], 22);
-            session.setPassword(args[1]);
+            Session session = jsch.getSession(connection.username, connection.ip, connection.port);
+            session.setPassword(connection.password);
 
             // Avoid asking for key confirmation
             session.setConfig("StrictHostKeyChecking", "no");
