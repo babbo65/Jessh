@@ -1,10 +1,10 @@
 package model;
 
 public class Connection {
-    String username;
-    String password;
-    String ip;
-    int port;
+    public String username;
+    public String password;
+    public String ip;
+    public int port;
     Connection(String username, String password, String ip)
     {
         this.username = username;

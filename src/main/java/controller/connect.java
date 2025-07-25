@@ -1,6 +1,8 @@
-package model;
+package controller;
+import model.Connection;
 
 import com.jcraft.jsch.*;
+import model.Connection;
 
 public class connect {
 
