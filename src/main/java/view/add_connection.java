@@ -1,25 +1,21 @@
 package view;
 
-import javax.swing.*;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
-public class add_connection {
-   public void newcon()
-   {
-       JFrame frame = new JFrame();
-       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+public class add_connection extends Application {
+    @Override
+    public void start(Stage primaryStage) {
+        Label label = new Label("Hello, JavaFX!");
+        Scene scene = new Scene(label, 300, 100);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Test");
+        primaryStage.show();
+    }
 
-       JButton add_new_connection = new JButton("Connect");
-       add_new_connection.setBounds(150, 200, 220, 50);
-
-       JTextArea user = new JTextArea();
-       JTextArea pw = new JTextArea();
-       JTextArea ip = new JTextArea();
-
-       frame.add(add_new_connection);
-       frame.add(user);
-       frame.add(pw);
-       frame.add(ip);
-       frame.setSize(500, 600);
-       frame.setVisible(true);
-   }
+    public static void main(String[] args) {
+        launch(args);
+    }
 }
