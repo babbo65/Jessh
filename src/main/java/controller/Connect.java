@@ -1,10 +1,11 @@
-package model;
+package controller;
+import model.Connection;
 
 import com.jcraft.jsch.*;
 
-public class connect {
+public class Connect {
 
-    public void connect(Connection connection) {
+    public void openConnection(Connection connection) {
         JSch jsch = new JSch();
         try {
             // Args are username, pw, ip
