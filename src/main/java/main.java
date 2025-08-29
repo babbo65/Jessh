@@ -1,3 +1,5 @@
+import view.add_connection;
+
 import javax.swing.*;
 
 public class main {
