@@ -5,14 +5,14 @@ public class Connection {
     public String password;
     public String ip;
     public int port;
-    Connection(String username, String password, String ip)
+    public Connection(String username, String password, String ip)
     {
         this.username = username;
         this.password = password;
         this.ip = ip;
         port = 22;
     }
-    Connection(String username, String password, String ip, int port)
+    public Connection(String username, String password, String ip, int port)
     {
         this.username = username;
         this.password = password;
