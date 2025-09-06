@@ -6,7 +6,7 @@ import model.Connection;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class Add_connection {
+public class AddConnection {
    public void newcon()
    {
        JFrame frame = new JFrame();

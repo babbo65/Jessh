@@ -1,4 +1,4 @@
-import view.Add_connection;
+import view.AddConnection;
 
 import javax.swing.*;
 
@@ -8,7 +8,7 @@ public class Main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Add_connection conn = new Add_connection();
+                AddConnection conn = new AddConnection();
                 conn.newcon();
             }
         });
