@@ -53,7 +53,7 @@ public class Add_connection {
        mainPanel.add(ipPanel);
        mainPanel.add(add_new_connection);
 
-        frame.add(mainPanel);
+       frame.add(mainPanel);
        frame.setSize(500, 600);
        frame.setVisible(true);
    }
